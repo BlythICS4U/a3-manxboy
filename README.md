@@ -2,7 +2,11 @@
 
 Before you start your work, ensure that you have cloned this repository and created a develop branch. When you have completed the assignment, commit to your develop branch and create a pull request.
 
-## Problem 1 : Tic-tac-toe
+## Problem 1 : Report Card Parser
+
+A ReportCardParser project has been provided for you.  This project contains code to get you started and a set of text files containing report card data (there are different sets of text files for Windows vs. non-Windows operating systems).
+
+## Problem 2 : Tic-tac-toe
 
 A TicTacToe project has been provided for you.  However, the code is incomplete.  It builds, and the main method in TicTacToeRunner will attempt to play the game - but there there is necessary logic missing in the TicTacToe class (comments indicate where real implementations are needed).  What follows is a description of the methods in TicTacToe and their purpose.
 
