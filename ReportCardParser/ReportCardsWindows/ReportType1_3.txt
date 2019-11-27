@@ -1,0 +1,11 @@
+Name: Steve Rogers
+DOB: 09/30/01
+
+English				95
+Business Studies		86
+Computer Science		52
+Calculus			65
+Principles of Mathematics	75
+Chemistry			81
+Physics				53
+Biology				88

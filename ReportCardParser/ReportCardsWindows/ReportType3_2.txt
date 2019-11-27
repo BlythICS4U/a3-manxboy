@@ -1,0 +1,5 @@
+Name: Peter Parker
+Date of Birth: 08/12/05
+
+English	Business Studies	Computer Science	Calculus	Principles of Mathematics	Chemistry	Physics	Biology
+92	76			78			68		75				98		87	84

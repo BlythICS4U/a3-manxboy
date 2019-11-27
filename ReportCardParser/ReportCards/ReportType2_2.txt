@@ -1,0 +1,4 @@
+Thor Odinson
+06/06/01
+
+English,67,Business Studies,80,Computer Science,85,Calculus,63,Principles of Mathematics,77,Chemistry,69,Physics,72,Biology,97

@@ -1,0 +1,11 @@
+Name: Tony Stark
+DOB: 01/19/02
+
+English				85
+Business Studies		76
+Computer Science		95
+Calculus			82
+Principles of Mathematics	78
+Chemistry			56
+Physics				90
+Biology				63

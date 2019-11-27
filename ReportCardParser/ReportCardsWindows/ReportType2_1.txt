@@ -1,0 +1,4 @@
+Natasha Romanoff
+02/25/02
+
+English,96,Business Studies,97,Computer Science,80,Calculus,74,Principles of Mathematics,79,Chemistry,85,Physics,72,Biology,78
