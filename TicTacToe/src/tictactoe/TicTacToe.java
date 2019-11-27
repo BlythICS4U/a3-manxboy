@@ -1,15 +1,12 @@
 package tictactoe;
 
 public class TicTacToe {
-    // Instance Variables
-
+    
     private char[][] board;
-    private int turns;
 
     // Constructors
     public TicTacToe() {
         board = new char[3][3];
-        turns = 0;
 
         for (int r = 0; r < 3; r++) {
             for (int c = 0; c < 3; c++) {
@@ -40,10 +37,6 @@ public class TicTacToe {
         } else {
             return false;
         }
-    }
-
-    public int numTurns() {
-        return turns;
     }
 
     public char playerAt(int r, int c) {

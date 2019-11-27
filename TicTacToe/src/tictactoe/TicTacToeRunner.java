@@ -13,7 +13,7 @@ public class TicTacToeRunner {
 
         while (!(ttt.isWinner('X') || ttt.isWinner('O') || ttt.isFull())) {
             ttt.displayBoard();
-            System.out.print("'" + p + "', choose your location (row, column): ");
+            System.out.print("'" + p + "', choose your location (i.e. 0 0): ");
             r = keyboard.nextInt();
             c = keyboard.nextInt();
 

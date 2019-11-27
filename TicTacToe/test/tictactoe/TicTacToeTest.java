@@ -22,10 +22,6 @@ public class TicTacToeTest {
     }
 
     @Test
-    public void testNumTurns() {
-    }
-
-    @Test
     public void testPlayerAt() {
     }
 
