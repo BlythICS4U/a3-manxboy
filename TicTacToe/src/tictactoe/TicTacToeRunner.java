@@ -1,6 +1,7 @@
 package tictactoe;
 
 import java.util.Scanner;
+import tictactoe.TicTacToeAI.Move;
 
 public class TicTacToeRunner {
 
@@ -9,25 +10,48 @@ public class TicTacToeRunner {
 
         char p = 'X';
         TicTacToe ttt = new TicTacToe();
+        TicTacToeAI ai = new TicTacToeAI();
+        
         int r, c;
 
         while (!(ttt.isWinner('X') || ttt.isWinner('O') || ttt.isFull())) {
-            ttt.displayBoard();
-            System.out.print("'" + p + "', choose your location (i.e. 0 0): ");
-            r = keyboard.nextInt();
-            c = keyboard.nextInt();
-
-            while (ttt.isValid(r, c) == false || ttt.playerAt(r, c) != ' ') {
-                if (ttt.isValid(r, c) == false) {
-                    System.out.println("That is not a valid location. Try again.");
-                } else if (ttt.playerAt(r, c) != ' ') {
-                    System.out.println("That location is already full. Try again.");
-                }
-
-                System.out.print("Choose your location (row, column): ");
+            
+            
+            
+            if (p == 'O') {
+                
+                ttt.displayBoard();
+                
+                System.out.print("'" + p + "', choose your location (i.e. 0 0): ");
+                
                 r = keyboard.nextInt();
                 c = keyboard.nextInt();
+                
+                while (ttt.isValid(r, c) == false || ttt.playerAt(r, c) != ' ') {
+                    if (ttt.isValid(r, c) == false) {
+                        System.out.println("That is not a valid location. Try again.");
+                    } else if (ttt.playerAt(r, c) != ' ') {
+                        System.out.println("That location is already full. Try again.");
+                    }
+
+                    System.out.print("Choose your location (row, column): ");
+                    r = keyboard.nextInt();
+                    c = keyboard.nextInt();
+                }
+                
+                ai.humanPlay(r, c);
+                
+            } else { //player equals 'X'
+                
+                Move move = ai.chooseSquare();
+                                
+                r = move.row;
+                c = move.column;
             }
+            
+            
+
+            
 
             ttt.playMove(p, r, c);
 

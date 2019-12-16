@@ -39,7 +39,7 @@ public class Main {
         ReportCard[] reportCards = new ReportCard[reportCardParsers.length];
 
         for (int i = 0; i < reportCardParsers.length; i++) {
-            reportCards[i] = reportCardParsers[i].parse();
+            reportCards[i] = reportCardParsers[i].parse();            
         }
 
         System.out.println("Best student is " + ReportCardStats.GetBestStudent(reportCards));
